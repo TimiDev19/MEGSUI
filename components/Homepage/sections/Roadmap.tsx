@@ -5,9 +5,8 @@ const Roadmap = () => {
     return (
         <div
             id='roadmap'
-            className=' w-[100vw] h-[100vh] pt-[100px] px-[10px] text-white'
+            className=' w-[100vw] h-[100vh] pt-[100px] px-[10px] text-white mb-6'
         >
-            <FadeInFromBottom>
                 <h1 className=' text-3xl uppercase font-extrabold mb-4'>Roadmap</h1>
                 <div id="how-to-buy" className=" w-full px-2 mb-6">
                     <div className=" border-l border-l-blue-500 h-fit">
@@ -56,7 +55,6 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
-            </FadeInFromBottom>
         </div>
     )
 }
