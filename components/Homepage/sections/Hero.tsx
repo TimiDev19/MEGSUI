@@ -1,5 +1,6 @@
 "use client"
 import { FadeInFromBottom } from '@/components/FadeInFromBottom'
+import Typewriter from '@/components/Typewriter';
 import { CopyAll } from '@mui/icons-material';
 import React, { useState } from 'react'
 
@@ -23,7 +24,7 @@ const Hero = () => {
             <FadeInFromBottom>
                 <div className=' w-full h-full flex flex-col lg:flex-row items-start lg:items-center justify-between pt-[90px] px-[10px]'>
                     <div className=' w-full lg:w-[45%]'>
-                        <h1 className=' text-center lg:text-left text-white font-extrabold text-3xl mb-4'>MEGLADON SUI</h1>
+                        <h1 className=' text-center lg:text-left text-white font-extrabold text-3xl mb-4 flex'>M<Typewriter text={`EGLADON SUI`} speed={300} /> </h1>
                         <p className=' text-center lg:text-left text-white mb-4'>
                             The MEG Coin project is driven by the vision of creating a vibrant and engaged community powered by the SUI blockchain's scalability and efficiency. By leveraging SUI's fast and secure infrastructure, MEG Coin aims to deliver a seamless experience for holders,traders and builders alike.
                         </p>
@@ -36,7 +37,7 @@ const Hero = () => {
                         {copied && <span className="text-white">Text copied to clipboard!</span>}
                     </div>
 
-                    <div className=' w-full lg:w-[45%] h-[45vh] lg:h-[75%] hero-bg rounded-3xl shadow-md'>
+                    <div className=' w-full lg:w-[45%] h-[45vh] lg:h-[75%] animate-pulse hero-bg rounded-3xl shadow-md'>
 
                     </div>
                 </div>
