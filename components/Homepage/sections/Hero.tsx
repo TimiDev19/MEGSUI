@@ -30,7 +30,7 @@ const Hero = () => {
                         </p>
                         <div onClick={handleCopy} className=' flex items-center justify-center bg-blue-900 text-white py-1 w-fit mx-auto lg:mx-0 px-4 rounded-md'>
                             <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
-                                {textToCopy}
+                                {textToCopy}                    
                             </h1>
                             <h1 className=' cursor-pointer'><CopyAll /> Click to copy</h1>
                         </div>
