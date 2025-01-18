@@ -102,9 +102,11 @@ const Navbar = () => {
                                     <Link onClick={toggleSidebar} href={'/#home'} className=" p-3 mb-4 w-fit bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-400 hover:bg-blue-400 hover:text-white duration-500 mx-4">Home</Link>
                                     <Link onClick={toggleSidebar} href={'/#about'} className=" p-3 mb-4 w-fit bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-400 hover:bg-blue-400 hover:text-white duration-500 mx-4">About</Link>
                                     <Link onClick={toggleSidebar} href={'/#home'} className=" p-3 mb-4 w-fit bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-400 hover:bg-blue-400 hover:text-white duration-500 mx-4">Roadmap</Link>
-                                    <Link target="blank" href={'https://t.me/+fe1X5-6rmPUxOGVh'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><TelegramIcon /></Link>
-                                    <Link target="blank" href={'https://x.com/apexaisui?s=21&t=QUY7gl9YGenwPN8yw_vP6A'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
-                                    <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><Instagram /></Link>
+                                    <div className="flex items-center justify-between">
+                                        <Link target="blank" href={'https://t.me/+fe1X5-6rmPUxOGVh'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><TelegramIcon /></Link>
+                                        <Link target="blank" href={'https://x.com/apexaisui?s=21&t=QUY7gl9YGenwPN8yw_vP6A'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
+                                        <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-blue-500 flex items-center justify-center hover:border-2 hover:border-blue-500 hover:bg-transparent duration-500 mx-4"><Instagram /></Link>
+                                    </div>
                                 </ul>
                             </motion.div>
                         </motion.div>
