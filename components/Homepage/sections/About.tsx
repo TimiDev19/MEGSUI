@@ -1,5 +1,8 @@
 import { FadeInFromTop } from '@/components/FadeInFromTop'
+import InfiniteCarousel from '@/components/InfiniteCarousel'
+import Image from 'next/image'
 import React from 'react'
+import Logo from "@/app/assets/img1.jpeg"
 
 const About = () => {
     return (
@@ -9,7 +12,7 @@ const About = () => {
 
         <FadeInFromTop>
             <div
-            id='about'
+                id='about'
                 className=" h-[100vh] text-white about-bg w-full mb-4 flex flex-col lg:flex-row items-center justify-center lg:justify-between lg:p-4 pt-[100px]"
             >
                 <div className=" w-[95%] m-auto lg:h-[35vh] text-center">
@@ -19,7 +22,7 @@ const About = () => {
                             <h1 className=' text-2xl mb-4'>Abstract</h1>
                             <p>
                                 MEG Coin is a fixed-supply cryptocurrency built on SUI network, designed to empower decentralized community. With a focus on
-                                 transparency, scarcity and active ecosystem growth, MEG Coin supports holders through sustainable tokenomics and ongoing community engagement.
+                                transparency, scarcity and active ecosystem growth, MEG Coin supports holders through sustainable tokenomics and ongoing community engagement.
                             </p>
                         </div>
 
@@ -36,6 +39,17 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className=' w-[95%] mx-auto flex items-center justify-center mb-[20px]'>
+                <h1 className=' z-[3] flex items-center justify-center uppercase font-bold text-black text-lg lg:text-4xl p-2 bg-gradient-to-tr from-blue-700 to-blue-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl box-shadow'>
+                    <Image
+                        src={Logo}
+                        alt="Apexium Logo"
+                        className=' w-[50px] h-[50px] rounded-full mr-3'
+                    />
+                    MEGSUI MEMES
+                </h1>
+                <InfiniteCarousel />
             </div>
         </FadeInFromTop>
     )
