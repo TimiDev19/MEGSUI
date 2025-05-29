@@ -24,15 +24,22 @@
     background-repeat: no-repeat;
 } */
 
-.hero-bg{
-    background-image:  url('/images/img1.jpg');
+.hero-bg {
+    background-image: url('/images/img1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.about-bg{
+.about-bg {
     background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url('/images/img9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roadmap-bg {
+    background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url('/images/img6.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

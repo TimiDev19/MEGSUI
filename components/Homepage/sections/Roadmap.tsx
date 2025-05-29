@@ -5,7 +5,7 @@ const Roadmap = () => {
     return (
         <div
             id='roadmap'
-            className=' w-[100vw] h-[100vh] pt-[100px] px-[10px] text-white mb-6'
+            className=' w-[100vw] h-[100vh] pt-[100px] px-[10px] text-white mb-8 roadmap-bg'
         >
                 <h1 className=' text-3xl uppercase font-extrabold mb-4'>Roadmap</h1>
                 <div id="how-to-buy" className=" w-full px-2 mb-6">

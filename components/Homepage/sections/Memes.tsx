@@ -11,9 +11,8 @@ const Memes = () => {
                     <Image
                         src={Logo}
                         alt="Apexium Logo"
-                        className=' w-[50px] h-[50px] rounded-full mr-3'
+                        className=' w-[70px] h-[70px] rounded-full'
                     />
-                    MEGSUI MEMES
                 </h1>
                 <InfiniteCarousel />
             </div>
