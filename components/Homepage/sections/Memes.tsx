@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import InfiniteCarousel from '@/components/InfiniteCarousel'
-import Logo from "@/app/assets/img1.jpeg"
+import Logo from "@/public/images/img1.jpg"
 
 const Memes = () => {
     return (
@@ -11,8 +11,9 @@ const Memes = () => {
                     <Image
                         src={Logo}
                         alt="Apexium Logo"
-                        className=' w-[70px] h-[70px] rounded-full'
+                        className=' w-[70px] h-[70px] rounded-full mr-3'
                     />
+                    MEGSUI MEMES
                 </h1>
                 <InfiniteCarousel />
             </div>
