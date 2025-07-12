@@ -69,3 +69,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.nft-bg {
+    background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url('../app/assets/nft2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

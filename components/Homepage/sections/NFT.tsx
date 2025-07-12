@@ -1,0 +1,47 @@
+import Image from 'next/image'
+import React from 'react'
+import Logo from "@/public/images/img1.jpg"
+import nft1 from "@/app/assets/nft1.jpg"
+import nft2 from "@/app/assets/nft2.jpg"
+
+const NFT = () => {
+    return (
+        <div id="nft" className=' py-2 w-[100vw] nft-bg h-fit lg:h-[100vh] flex items-center justify-center'>
+            <div className=' w-[95%] mx-auto flex flex-col items-center justify-center mb-[20px]'>
+                <h1 className=' z-[3] flex items-center justify-center uppercase font-bold text-black text-lg lg:text-4xl p-2 bg-gradient-to-tr from-blue-700 to-blue-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl box-shadow'>
+                    <Image
+                        src={Logo}
+                        alt="Apexium Logo"
+                        className=' w-[70px] h-[70px] rounded-full mr-3 mb-[10px]'
+                    />
+                    MEGSUI NFTs
+                </h1>
+                <div className=' pt-[20px] min-h-[60vh] w-[95%] lg:w-[75%] mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
+                    <Image
+                        src={nft1}
+                        alt=''
+                        className=' h-[50vh] lg:hidden rounded-md border border-white'
+                    />
+                    <Image
+                        src={nft1}
+                        alt=''
+                        className=' w-[45%] hidden lg:block rounded-md border border-white'
+                    />
+                    <div className=' text-white lg:w-[45%] pt-[10px]'>
+                        <h1 className=' text-xl lg:text-5xl'>NFT Details</h1>
+                        <ol className=' list-disc'>
+                            <li>WL mint 4.20 SUI</li>
+                            <li>Public mint 6.9 SUI</li>
+                            <li>420 NFTs</li>
+                            <li>24 1 of 1s</li>
+                            <li>$1000 worth of prizes</li>
+                            <li>Exclusive access to the discord</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default NFT
