@@ -28,13 +28,13 @@ const Hero = () => {
                         <p className=' text-center lg:text-left text-white mb-4'>
                             The MEG Coin project is driven by the vision of creating a vibrant and engaged community powered by the SUI blockchain's scalability and efficiency. By leveraging SUI's fast and secure infrastructure, MEG Coin aims to deliver a seamless experience for holders,traders and builders alike.
                         </p>
-                        <div onClick={handleCopy} className=' flex items-center justify-center bg-blue-900 text-white py-1 w-fit mx-auto lg:mx-0 px-4 rounded-md'>
+                        {/* <div onClick={handleCopy} className=' flex items-center justify-center bg-blue-900 text-white py-1 w-fit mx-auto lg:mx-0 px-4 rounded-md'>
                             <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
                                 {textToCopy}                    
                             </h1>
                             <h1 className=' cursor-pointer'><CopyAll /> Click to copy</h1>
                         </div>
-                        {copied && <span className="text-white">Text copied to clipboard!</span>}
+                        {copied && <span className="text-white">Text copied to clipboard!</span>} */}
                     </div>
 
                     <div className=' w-full lg:w-[45%] h-[45vh] lg:h-[75%] animate-pulse hero-bg rounded-3xl shadow-md'>
