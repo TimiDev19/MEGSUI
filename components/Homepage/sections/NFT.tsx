@@ -19,11 +19,11 @@ const NFT = () => {
                     MEGSUI NFTs
                 </h1>
                 <div className=' pt-[20px] min-h-[60vh] w-[95%] lg:w-[75%] mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
-                    <div className='w-[95%] lg:w-[30%] h-full flex flex-col items-center justify-between'>
+                    <div className='w-full lg:w-[30%] h-full flex flex-col items-center justify-between'>
                         <Image
                             src={nft1}
                             alt=''
-                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                            className=' w-full lg:hidden rounded-md border border-white mb-4'
                         />
                         <Image
                             src={nft1}
@@ -34,7 +34,7 @@ const NFT = () => {
                         <Image
                             src={nft3}
                             alt=''
-                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                            className=' w-full lg:hidden rounded-md border border-white mb-4'
                         />
                         <Image
                             src={nft3}
@@ -53,11 +53,11 @@ const NFT = () => {
                             <li>Exclusive access to the discord</li>
                         </ol>
                     </div>
-                    <div className=' w-[95%] lg:w-[30%] h-full flex flex-col items-center justify-between'>
+                    <div className=' w-full lg:w-[30%] h-full flex flex-col items-center justify-between'>
                         <Image
                             src={nft2}
                             alt=''
-                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                            className=' w-full lg:hidden rounded-md border border-white mb-4'
                         />
                         <Image
                             src={nft2}
@@ -68,7 +68,7 @@ const NFT = () => {
                         <Image
                             src={nft4}
                             alt=''
-                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                            className=' w-full lg:hidden rounded-md border border-white mb-4'
                         />
                         <Image
                             src={nft4}
