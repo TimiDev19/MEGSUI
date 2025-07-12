@@ -25,9 +25,9 @@ const NFT = () => {
                     <Image
                         src={nft1}
                         alt=''
-                        className=' w-[45%] hidden lg:block rounded-md border border-white'
+                        className=' w-[30%] hidden lg:block rounded-md border border-white'
                     />
-                    <div className=' text-white lg:w-[45%] pt-[10px]'>
+                    <div className=' text-white lg:w-[30%] pt-[10px]'>
                         <h1 className=' text-xl lg:text-5xl'>NFT Details</h1>
                         <ol className=' list-disc'>
                             <li>WL mint 4.20 SUI</li>
@@ -38,6 +38,16 @@ const NFT = () => {
                             <li>Exclusive access to the discord</li>
                         </ol>
                     </div>
+                    <Image
+                        src={nft2}
+                        alt=''
+                        className=' lg:hidden rounded-md border border-white'
+                    />
+                    <Image
+                        src={nft2}
+                        alt=''
+                        className=' w-[30%] hidden lg:block rounded-md border border-white'
+                    />
                 </div>
             </div>
         </div>
