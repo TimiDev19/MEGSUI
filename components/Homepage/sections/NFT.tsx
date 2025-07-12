@@ -3,6 +3,8 @@ import React from 'react'
 import Logo from "@/public/images/img1.jpg"
 import nft1 from "@/app/assets/nft1.jpg"
 import nft2 from "@/app/assets/nft2.jpg"
+import nft3 from "@/app/assets/nft3.jpg"
+import nft4 from "@/app/assets/nft4.jpg"
 
 const NFT = () => {
     return (
@@ -17,16 +19,29 @@ const NFT = () => {
                     MEGSUI NFTs
                 </h1>
                 <div className=' pt-[20px] min-h-[60vh] w-[95%] lg:w-[75%] mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
-                    <Image
-                        src={nft1}
-                        alt=''
-                        className=' h-[50vh] lg:hidden rounded-md border border-white'
-                    />
-                    <Image
-                        src={nft1}
-                        alt=''
-                        className=' w-[30%] hidden lg:block rounded-md border border-white'
-                    />
+                    <div className='w-[95%] lg:w-[30%] h-full flex flex-col items-center justify-between'>
+                        <Image
+                            src={nft1}
+                            alt=''
+                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                        />
+                        <Image
+                            src={nft1}
+                            alt=''
+                            className=' w-full hidden lg:block rounded-md border border-white mb-4'
+                        />
+
+                        <Image
+                            src={nft3}
+                            alt=''
+                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                        />
+                        <Image
+                            src={nft3}
+                            alt=''
+                            className=' w-full hidden lg:block rounded-md border border-white mb-4'
+                        />
+                    </div>
                     <div className=' text-white lg:w-[30%] pt-[10px]'>
                         <h1 className=' text-xl lg:text-5xl'>NFT Details</h1>
                         <ol className=' list-disc'>
@@ -38,16 +53,29 @@ const NFT = () => {
                             <li>Exclusive access to the discord</li>
                         </ol>
                     </div>
-                    <Image
-                        src={nft2}
-                        alt=''
-                        className=' lg:hidden rounded-md border border-white'
-                    />
-                    <Image
-                        src={nft2}
-                        alt=''
-                        className=' w-[30%] hidden lg:block rounded-md border border-white'
-                    />
+                    <div className=' w-[95%] lg:w-[30%] h-full flex flex-col items-center justify-between'>
+                        <Image
+                            src={nft2}
+                            alt=''
+                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                        />
+                        <Image
+                            src={nft2}
+                            alt=''
+                            className=' w-full hidden lg:block rounded-md border border-white mb-4'
+                        />
+
+                        <Image
+                            src={nft4}
+                            alt=''
+                            className=' h-[50vh] lg:hidden rounded-md border border-white mb-4'
+                        />
+                        <Image
+                            src={nft4}
+                            alt=''
+                            className=' w-full hidden lg:block rounded-md border border-white mb-4'
+                        />
+                    </div>
                 </div>
             </div>
         </div>
