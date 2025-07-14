@@ -11,7 +11,7 @@ const NFT = () => {
         <div id="nft" className=' py-2 w-[100vw] nft-bg h-fit lg:h-[100vh] flex items-center justify-center'>
             <div className=' w-[95%] mx-auto flex flex-col items-center justify-center mb-[20px]'>
                 <h1 className=' z-[3] flex items-center justify-center uppercase font-bold text-black text-lg lg:text-4xl p-2 bg-gradient-to-tr from-blue-700 to-blue-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl box-shadow'>
-                    MEGSUI NFTs
+                    MEG NFTs
                 </h1>
                 <div className=' pt-[20px] min-h-[60vh] w-[95%] lg:w-[75%] mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
                     <div className='w-full lg:w-[30%] h-full flex flex-col items-center justify-between'>
