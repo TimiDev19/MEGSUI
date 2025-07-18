@@ -15,7 +15,7 @@ const NFT = () => {
                 </h1>
                 <div className=' pt-[20px] min-h-[60vh] w-[95%] lg:w-[75%] mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between'>
                     <div className='w-full lg:w-[30%] h-full flex flex-col items-center justify-between'>
-                        <Image
+                        {/* <Image
                             src={nft1}
                             alt=''
                             className=' w-full lg:hidden rounded-md border border-white mb-4'
@@ -24,7 +24,7 @@ const NFT = () => {
                             src={nft1}
                             alt=''
                             className=' w-full hidden lg:block rounded-md border border-white mb-4'
-                        />
+                        /> */}
 
                         <Image
                             src={nft3}
